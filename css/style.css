@@ -1,0 +1,50 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 1800px;
+}
+.container{
+    overflow: hidden;
+    background-color: #fff3f3;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.product{
+    width: 25%;
+    
+}
+.heading{
+    padding-top: 20px;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+#content{
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: #eee;
+    padding-top: 20px;
+    
+    
+}
+#cart{
+    width: 450px;
+    height: 250px;
+    background-color: #fff3f3; 
+    margin: auto;
+    border-radius: 10px; 
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2) ;
+    
+}
+#btn{
+    margin-top: -20%;
+    margin-left: 10%;
+    b
+}
